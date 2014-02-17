@@ -35,7 +35,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -84,7 +84,7 @@ F4 "Relay+" I R 9500 5650 60
 F5 "Relay-" O R 9500 5800 60 
 $EndSheet
 $Sheet
-S 2100 1050 1550 1050
+S 800  1100 1550 1050
 U 52FFAA1F
 F0 "Power" 50
 F1 "Power.sch" 50
@@ -120,5 +120,11 @@ S 10050 1550 600  4350
 U 52FFAB03
 F0 "Terminal Block" 50
 F1 "TerminalBlock.sch" 50
+$EndSheet
+$Sheet
+S 4300 1050 1950 1050
+U 53014FF5
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC
